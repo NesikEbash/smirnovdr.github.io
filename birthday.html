@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Днем Рождения, Игорь!</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #333;
+            animation: backgroundChange 10s infinite;
+        }
+        @keyframes backgroundChange {
+            0% { background-color: #ffeb3b; }
+            50% { background-color: #2196f3; }
+            100% { background-color: #ffeb3b; }
+        }
+        h1 {
+            font-size: 3em;
+            color: gold;
+            margin-top: 20px;
+            animation: fadeIn 3s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .section {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #2196f3;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: popIn 0.5s;
+        }
+        @keyframes popIn {
+            from { transform: scale(0); }
+            to { transform: scale(1); }
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            font-size: 1.2em;
+            animation: slideIn 1s;
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .gift {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+            animation: giftPop 0.5s;
+        }
+        @keyframes giftPop {
+            from { transform: scale(1); }
+            to { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+
+<h1>С Днем Рождения, Игорь!</h1>
+
+<div class="section">
+    <h2>Раздел 1: Приветствие</h2>
+    <p>Дорогой Игорь! Сегодня твой особенный день, и я хочу поздравить тебя с этим чудесным событием!</p>
+</div>
+
+<div class="section">
+    <h2>Раздел 2: Поздравления</h2>
+    <ul>
+        <li>Пусть каждый миг твоего дня будет наполнен счастьем!</li>
+        <li>Желаю тебе здоровья, удачи и исполнения всех желаний!</li>
+        <li>Ты- конечно еще то животное, но зато добрый)))</li>
+    </ul>
+</div>
+
+
+
+<div class="section">
+    <h2>Раздел 3: Заключение</h2>
+    <p>Желаю тебе незабываемого дня, полного радости и смеха. Пусть каждый момент будет особенным!</p>
+</div>
+
+</body>
+</html>
